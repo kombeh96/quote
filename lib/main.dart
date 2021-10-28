@@ -19,10 +19,11 @@ class _QuoteListState extends State<QuoteList> {
     'You are beautiful and special so love yourself.'
   ];
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[200],
+      backgroundColor: Colors.grey[300],
       appBar: AppBar(
         title: const Text('Awesome Quotes'),
         centerTitle: true,
